@@ -17,7 +17,7 @@ console.log (nomiAutori)
 
 
 
-const nomiAutoriV2 = posts.map(elem => elem.author)
+const nomiAutoriV2 = posts.map(({author}) => author)
 console.log(nomiAutoriV2);
 
 
