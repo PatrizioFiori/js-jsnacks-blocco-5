@@ -14,7 +14,7 @@ console.log(numbersPiuUno);
 const numbersV2 = [2, 8, 4, 7, 2, 87];
 
 
-console.log("=== Versione n2 ===");
+console.log("=== Versione-V2 return e destructuring impliciti ===");
 // Return e destructuring impliciti 
 
 const numbersPiuUnoV2 = numbersV2.map (elem => elem + 1)
